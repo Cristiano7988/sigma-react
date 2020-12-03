@@ -20,8 +20,7 @@ const Login = () => {
     }
 
     return (
-        <div className="p-grid p-justify-center p-align-center vertical-container">
-            <div className="p-col-4">
+            <div className="p-col">
 
                 <h5>Login</h5>
                 <div className="p-formgroup-inline">
@@ -50,7 +49,6 @@ const Login = () => {
                 </div>
 
             </div>
-        </div>
     )
 }
 
