@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Login from './Login';
-import MenuLateral from './components/MenuLateral';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
@@ -16,8 +15,7 @@ import './App.scss';
 export const App = () => {
 
     return (
-        <div className="p-grid p-align-center">
-            <MenuLateral />
+        <div className="p-grid p-justify-center">
             <Login />
         </div>
     )

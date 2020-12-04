@@ -11,7 +11,7 @@ export const MenuLateral = () => {
             items: [
                 {
                     label: 'Veículos',
-                    icon: 'pi pi-fw pi-search',
+                    icon: 'pi pi-search',
                 }
             ]
         }
